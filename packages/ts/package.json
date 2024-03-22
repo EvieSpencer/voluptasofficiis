@@ -1,0 +1,27 @@
+{
+  "name": "@clabnet/configs-ts",
+  "version": "0.1.8",
+  "description": "Shared typescript config for monorepo and lib packages",
+  "main": "tsconfig.json",
+  "keywords": [
+    "configs",
+    "pnpm",
+    "typescript"
+  ],
+  "homepage": "https://github.com/clabnet/configs#readme",
+  "bugs": "https://github.com/clabnet/configs/issues",
+  "repository": {
+    "url": "https://github.com/clabnet/configs",
+    "type": "git",
+    "directory": "packages/ts"
+  },
+  "author": "Claudio Barca <c.barca@libero.it> (http://github.com/clabnet)",
+  "license": "MIT",
+  "scripts": {
+    "release:npm": "pnpm publish --access public --loglevel silly",
+    "syncpack:fix": "syncpack format && syncpack fix-mismatches"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

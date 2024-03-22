@@ -1,0 +1,47 @@
+{
+  "name": "voluptasofficiis",
+  "version": "1.0.0",
+  "description": "Eslint, Prettier, Syncpack, Typedoc shared configurations",
+  "keywords": [
+    "configs",
+    "eslint",
+    "ipsum",
+    "quia",
+    "syncpack",
+    "typedoc"
+  ],
+  "bugs": {
+    "url": "https://github.com/EvieSpencer/voluptasofficiis.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvieSpencer/voluptasofficiis.git"
+  },
+  "author": "JohannaChristiansen",
+  "license": "MIT",
+  "dependencies": {
+    "@clabnet/configs-eslint-ts": "0.1.8",
+    "@clabnet/configs-prettier": "0.1.8",
+    "@clabnet/configs-syncpack": "0.1.8",
+    "@clabnet/configs-ts": "0.1.8",
+    "@clabnet/configs-typedoc": "0.1.8",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.4",
+    "syncpack": "^12.3.0"
+  },
+  "devDependencies": {
+    "changie": "^1.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.13.1",
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm"
+  },
+  "packageManager": "pnpm@8.13.1",
+  "peerDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+}
